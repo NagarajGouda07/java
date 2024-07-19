@@ -27,4 +27,5 @@ class Characters {
   int names=fullname.length;
    System.out.println("Number of characters "+names);
  }
+
 }
