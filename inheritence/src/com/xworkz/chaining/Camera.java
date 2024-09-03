@@ -12,7 +12,7 @@ public class Camera {
 		this.cost = cost;
 	}
 
-	public Camera(String color, double cost, Double weight) {
+	public Camera(String color, double cost, double weight) {
 		this(color, cost);
 		this.weight = weight;
 	}
