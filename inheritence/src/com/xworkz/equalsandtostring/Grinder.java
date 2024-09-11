@@ -37,6 +37,7 @@ public class Grinder {
 				Grinder casted = (Grinder) obj; // casted
 				if (this.brand.equals(casted.brand) && this.price == casted.price) {
 					System.out.println("Equal");
+					return true;
 				}
 			} else {
 				System.out.println("Obj is not a Grinder");
@@ -44,7 +45,7 @@ public class Grinder {
 		} else {
 			System.out.println("Obj is Null");
 		}
-		return true;
+		return false;
 	}
 
 }
