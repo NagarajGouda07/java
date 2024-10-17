@@ -1,0 +1,16 @@
+package com.xworkz.MallDto;
+
+public enum Location {
+	
+		KORAMANGALA,
+		 INDIRANAGAR,
+		WHITEFIELD,
+		 JAYANAGAR,
+		MALLESWARAM,
+		 AGASALADINNE,
+		 MARATHAHALLI,
+		 KOWTHALAM, 
+		 BALLARI,
+		 RAJAJINAGAR; 
+
+}
