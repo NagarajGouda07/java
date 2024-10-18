@@ -18,7 +18,7 @@ public class StringDemo {
 		System.out.println(s1.charAt(7));
 		System.out.println(s2.charAt(32));
 
-		// String substring 0-5
+		// String substring 0-5 this two b/w letters display
 		System.out.println(s1.substring(0, 6));
 		System.out.println(s1.substring(7, 20));
 
@@ -44,7 +44,6 @@ public class StringDemo {
 
 		// string trim
 		String s5 = "  Hello, World!  ";
-
 		System.out.println(s5.trim());
 
 		// String replace
